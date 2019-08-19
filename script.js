@@ -180,7 +180,7 @@ const init = ()=>
 
 {
   newArray= [];
-  for(var i = 0; i<800; i++){
+  for(var i = 0; i<1000; i++){
   let radius = Math.random() * 3 + 1;
   let x = Math.random() * (innerWidth - radius * 3) + radius;
 let y =Math.random() * (innerHeight - radius * 3) + radius;
